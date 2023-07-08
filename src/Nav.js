@@ -1,25 +1,26 @@
 
 function Nav(){
     return (
+       
     <nav>
         <ul>
-            <li>
-                <a href="">Home</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>Home</a>
             </li>
-            <li>
-                <a href="">About</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>About</a>
             </li>
-            <li>
-                <a href="">Menu</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>Menu</a>
             </li>
-            <li>
-                <a href="">Reservations</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>Reservations</a>
             </li>
-            <li>
-                <a href="">Order Online</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>Order Online</a>
             </li>
-            <li>
-                <a href="">Log In</a>
+            <li style={{display:"inline-block", margin:"0 10px"}}>
+                <a href="#0" style={{color:"black", textDecoration:"none", fontFamily:"Karla", fontSize:"20px",fontWeight:"bold"}}>Log In</a>
             </li>
         </ul>
     </nav>

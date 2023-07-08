@@ -1,8 +1,8 @@
-import Nav from "./Nav"
+import  Nav from "./Nav"
 function Header(){
     return (
-    <header>
-        <img src="./Logo.svg"></img>
+    <header style={{display:"flex", justifyContent:"space-between", margin:"5px 5rem", flexWrap:"wrap"}}>
+        <img src="./Logo.svg" alt="logo"></img>
         <Nav/>
     </header>
     )

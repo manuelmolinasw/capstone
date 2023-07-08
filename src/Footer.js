@@ -1,62 +1,65 @@
 
 function Footer(){
     return (
-    <footer>
-        <img src="Logo.svg"></img>
-        <nav>
-            <ul>
-                <li>
+    <footer style={{display:"flex", justifyContent:"space-between", margin:"5px 15%", flexWrap:"wrap"}}>
+        <img src="./Logo.svg" alt="logo" width="100%" style={{flex:"1"}}></img>
+        <nav style={{flex:"1"}}>
+            <ul style={{listStyle:"none"}}>
+                <li style={{fontWeight:"bold",fontFamily:"Karla", color:"#495E57"}}>
                    Doormat Navigation
                 </li>
+                <li><p></p></li>
                 <li>
-                   <a href="">Home</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Home</a>
                 </li>
                 <li>
-                   <a href="">About</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>About</a>
                 </li>
                 <li>
-                   <a href="">Menu</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Menu</a>
                 </li>
                 <li>
-                   <a href="">Reservations</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Reservations</a>
                 </li>
                 <li>
-                   <a href="">Order Online</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Order Online</a>
                 </li>
                 <li>
-                   <a href="">Log In</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Log In</a>
                 </li>
             </ul>
         </nav>
-        <nav>
-            <ul>
-                <li>
+        <nav style={{flex:"1"}}>
+            <ul style={{listStyle:"none"}}>
+                <li style={{fontWeight:"bold",fontFamily:"Karla", color:"#495E57"}}>
                    Contact
                 </li>
+                <li><p></p></li>
                 <li>
-                   <a href="">Address</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Address</a>
                 </li>
                 <li>
-                   <a href="">Phone Number</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Phone Number</a>
                 </li>
                 <li>
-                   <a href="">Email</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Email</a>
                 </li>
             </ul>
         </nav>
-        <nav>
-            <ul>
-                <li>
+        <nav style={{flex:"1"}}>
+            <ul style={{listStyle:"none"}}>
+                <li style={{fontWeight:"bold",fontFamily:"Karla", color:"#495E57"}}>
                    Social Media Links
                 </li>
+                <li><p></p></li>
                 <li>
-                   <a href="">Address</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Address</a>
                 </li>
                 <li>
-                   <a href="">Phone Number</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Phone Number</a>
                 </li>
                 <li>
-                   <a href="">Email</a>
+                   <a href="#0" style={{color:"black", textDecoration:"none",fontFamily:"Karla"}}>Email</a>
                 </li>
             </ul>
         </nav>
