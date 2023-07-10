@@ -15,7 +15,7 @@ function Nav(){
                         <Link to="/menu" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Menu</Link>
                     </li>
                     <li style={{ display: "inline-block", margin: "0 10px" }}>
-                        <Link to="/reservations" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Reservations</Link>
+                        <Link to="/booking" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Reservations</Link>
                     </li>
                     <li style={{ display: "inline-block", margin: "0 10px" }}>
                         <Link to="/order" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Order Online</Link>
