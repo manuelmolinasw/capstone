@@ -13,7 +13,10 @@ function BookingForm (props) {
         setGuests("1")
         setOccasion("Birthday")
     }
-    
+    const handleReducer = (e) => {
+        setDate(e.target.value)
+        props.dispatch({type: 'hello'})
+    }
     
     return(
         <>
@@ -21,13 +24,14 @@ function BookingForm (props) {
         
         <form onSubmit={handleSubmit} style={{display: "grid", maxWidth: "200px", gap: "20px"}}>
             <label hmtlFor="res-date">Choose date</label>
-            <input type="date" id="res-date" value={date} onChange={(e) => setDate(e.target.value)}/>
+            <input type="date" id="res-date" data-testid="date" value={date} onChange={handleReducer}/>
             <label hmtlFor="res-time">Choose time</label>
-            <select id="res-time" value={time} onChange={(e) => setTime(e.target.value)}>
-                {props.availableTimes.map(t => 
+            <select id="res-time" data-testid="time" value={time} onChange={(e) => setTime(e.target.value)}>
+                {props.state.map(t => 
                     <option>{t}</option>
                 )}
             </select>
+            <button onClick={() => props.dispatch({type: 'hello'})}>Dispatch?</button>
             <label htmlFor="guests">Number of guests</label>
             <input type="number" placeholder="1" min="1" max="10" id="guests" value={guests} onChange={(e) => setGuests(e.target.value)}/>
             <label hmtlFor="occasion">Occasion</label>
