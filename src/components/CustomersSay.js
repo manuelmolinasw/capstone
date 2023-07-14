@@ -8,7 +8,7 @@ function CustomersSay (){
                 <article style={{flex:"1", margin:"1rem", fontFamily:"Karla"}}>
                     <p>Rating</p>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
-                        <img src="./Logo.svg" alt="Customer"></img>
+                        <img src="./customer.jpg" alt="Customer" width="70%"></img>
                         <p>Name</p>
                     </div>
                     <p>Review Text</p>
@@ -16,7 +16,7 @@ function CustomersSay (){
                 <article style={{flex:"1", margin:"1rem", fontFamily:"Karla"}}>
                     <p>Rating</p>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
-                        <img src="./Logo.svg" alt="Customer"></img>
+                        <img src="./customer.jpg" alt="Customer" width="70%"></img>
                         <p>Name</p>
                     </div>
                     <p>Review Text</p>
@@ -24,7 +24,7 @@ function CustomersSay (){
                 <article style={{flex:"1", margin:"1rem", fontFamily:"Karla"}}>
                     <p>Rating</p>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
-                        <img src="./Logo.svg" alt="Customer"></img>
+                        <img src="./customer.jpg" alt="Customer" width="70%"></img>
                         <p>Name</p>
                     </div>
                     <p>Review Text</p>
@@ -32,7 +32,7 @@ function CustomersSay (){
                 <article style={{flex:"1", margin:"1rem", fontFamily:"Karla"}}>
                     <p>Rating</p>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
-                        <img src="./Logo.svg" alt="Customer"></img>
+                        <img src="./customer.jpg" alt="Customer" width="70%"></img>
                         <p>Name</p>
                     </div>
                     <p>Review Text</p>

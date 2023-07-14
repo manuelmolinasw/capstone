@@ -9,7 +9,7 @@ function Nav(){
                         <Link to="/" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Home</Link>
                     </li>
                     <li style={{ display: "inline-block", margin: "0 10px" }}>
-                        <Link to="/confirmed" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>About</Link>
+                        <Link to="/about" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>About</Link>
                     </li>
                     <li style={{ display: "inline-block", margin: "0 10px" }}>
                         <Link to="/menu" className="nav-item" style={{ color: "black", textDecoration: "none", fontFamily: "Karla", fontSize: "20px", fontWeight: "bold" }}>Menu</Link>

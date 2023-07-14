@@ -1,7 +1,7 @@
 function CallToAction(){
     return(
         <section style={{backgroundColor:"#495E57"}}>
-            <div style={{margin:"5px 15%", display: "flex"}}>
+            <div style={{margin:"5px 15%", display: "flex", flexWrap:"wrap"}}>
                 <div style={{flex:"1"}}>
                     <h1 style={{fontFamily:"Markazi Text", color:"#F4CE14", fontSize:"40px"}}>Little Lemon</h1>
                     <h3 style={{fontFamily: "Markazi Text", color:"#EDEFEE", fontSize:"32px"}}>Chicago</h3>

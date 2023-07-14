@@ -6,7 +6,7 @@ import Chicago from "./Chicago";
 function HomePage () {
     return(
         <>
-        <p>Homepage</p>
+        
         <CallToAction />
         <Specials />
         <CustomersSay />

@@ -165,4 +165,3 @@ test('Returns expected value for updateTimes', () => {
 
 })
 
-

@@ -1,11 +1,11 @@
 function Specials(){
     return(
         <section style={{margin:"5px 15%"}}>
-            <div style={{display:"flex", justifyContent:"space-between"}}>
+            <div style={{display:"flex", justifyContent:"space-between", flexWrap:"wrap"}}>
                 <h2 style={{fontFamily:"Karla"}}>This week's specials!</h2>
                 <button style={{fontFamily:"Karla", fontSize:"18px", borderRadius:"16px", backgroundColor:"#F4CE14", fontWeight:"bold"}}>Online Menu</button>
             </div>
-            <div style={{display:"flex", justifyContent:"space-evenly"}}>
+            <div style={{display:"flex", justifyContent:"space-evenly",flexWrap:"wrap"}}>
                 <article style={{flex:"1", margin:"1rem", backgroundColor:"#EDEFEE", borderRadius:"16px 16px 0px 0px"}}>
                     <img src="./greek salad.jpg" alt="Greek Salad" width="100%" style={{borderRadius:"16px 16px 0px 0px"}}></img>
                     <div style={{display:"flex", justifyContent:"space-between"}}>
